@@ -3,7 +3,7 @@ const http= require('http');
 
 const createApplication = require('express');
 const app = createApplication();
-
+//Instance of server created 
 const server = http.createServer(app);
 const PORT= 3002;
 server.listen(PORT , ()=>{
